@@ -1,0 +1,54 @@
+body {
+    margin: 25px;
+  }
+  #abc {
+    color: white;
+    font-size: 18;
+  }
+  a {
+    color: white;
+
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  a:hover {
+    color: white;
+    background-color: green;
+  }
+  h1 {
+    color: rgb(32, 82, 122);
+  }
+
+  #heading {
+    border: 2px soild lightgrey;
+    background-color: lightgrey;
+    padding-bottom:3px;
+    font-size: 20px;
+  }
+  #subheading {
+    float: left;
+    width: 60%;
+  }
+  #side {
+    float: left;
+    width: 30%;
+    border: 2px soild lightgrey;
+    background-color: lightgrey;
+    padding-bottom: calc(5%);
+  }
+  #space {
+    float: left;
+    width: 10%;
+  }
+
+  #bottomside {
+    text-align: right;
+    float: left;
+    border: 2px soild lightgrey;
+    background-color: lightgrey;
+    width: 100%;
+  }
+  #parent {
+    display: flex;
+  }
